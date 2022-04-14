@@ -1,0 +1,73 @@
+/*div, p{
+    background-color: brown;
+}*/
+#firstPara, #secondPara{
+    color: green;
+    font-style: italic;
+    text-align: center;
+} 
+
+/*beauty class is created to apply same appearence for all other elements*/
+.beauty{
+    color: indigo;
+    font-size: large;
+    text-align: center
+}
+.paraWithBorder{
+    /* border-style: solid;
+    border-width: 4px;
+    border-color: red; */
+    border:solid 2px red;
+    border-radius: 20px;
+    /* margin-top:50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 100px; */
+    margin:50px 20px 20px 100px;
+    /* padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 25px; */
+    padding:10px 10px 10px 25px;
+    text-transform: lowercase;
+    font-size:large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.para-margin{
+    margin:50px 20px 20px 30px;
+}
+
+.anchor{
+text-decoration:none;
+}
+
+.div-text-format{
+text-indent: 30px;
+letter-spacing:2px;
+word-spacing: 5px;
+font-size: 30px;
+}
+
+.font-div{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.list-decoration{
+    list-style-type: square;
+}
+
+.list-order{
+    list-style-type: lower-roman;
+}
+
+.table-decoration{
+    border:1px solid black
+}
+
+.frame{
+    width:500px;
+    height:300px;
+}
