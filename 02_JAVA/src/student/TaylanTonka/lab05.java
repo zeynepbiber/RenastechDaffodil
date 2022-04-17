@@ -1,4 +1,4 @@
-package TaylanTonka;
+package student.TaylanTonka;
 
 public class lab05 {
     //Write a method that can find the maximum number from an int Array

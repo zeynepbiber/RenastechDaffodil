@@ -1,4 +1,4 @@
-package TaylanTonka;
+package student.TaylanTonka;
 
 public class lab01 {
     //Write a return method that can reverse  String

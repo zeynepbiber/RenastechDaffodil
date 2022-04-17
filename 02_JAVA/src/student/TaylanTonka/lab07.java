@@ -1,4 +1,4 @@
-package TaylanTonka;
+package student.TaylanTonka;
 
 import java.util.Arrays;
 
