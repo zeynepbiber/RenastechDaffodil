@@ -1,6 +1,7 @@
-package student.sevgin;
+package student.mahir;
 
-public class lab01 {
+public class q1 {
+
     public static void main(String[] args) {
 
     }
