@@ -31,21 +31,22 @@ public class lab14 {
 // More ways to solve it
 //    public static void sumOfNumInString(String word, int secondExample ){
 //
-//        int result=0;
-//        int result2=0;
+//        int firstWayResult=0;
+//        int secondWayResult=0;
 //        char [] eachLetter=word.toCharArray();
 //
 //        for(int i = 0; i< word.length(); i++){
 //
 //            if(eachLetter[i]>47 && eachLetter[i] <58){
-//                result+=Integer.parseInt(""+ eachLetter[i]); }
+//                firstWayResult+=Integer.parseInt(""+ eachLetter[i]); }
 //
 //            if(eachLetter[i]>47 && eachLetter[i] <58){
-//                result2+=Integer.valueOf(""+ eachLetter[i]); }}
+//                secondWayResult+=Integer.valueOf(""+ eachLetter[i]); }}
 //
 //
-//        System.out.println(result);
-//        System.out.println(result2); }
+//        System.out.println(firstWayResult);
+//        System.out.println(secondWayResult);
+//        }
 
 
 }
