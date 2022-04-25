@@ -9,10 +9,7 @@ public class lab14 {
 
         System.out.println(sumOfNumInString("2022- RenasTechC5"));
 
-
-
     }
-
 
     public static int sumOfNumInString(String word){
 
@@ -23,6 +20,12 @@ public class lab14 {
              result+=Integer.parseInt(String.valueOf(word.charAt(i)));}}
 
         return result;    }
+
+
+
+
+
+
 
 
 // More ways to solve it

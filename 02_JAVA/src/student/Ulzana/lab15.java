@@ -3,11 +3,14 @@ package student.Ulzana;
 import java.util.Arrays;
 
 public class lab15 {
+
+
     //Given alphanumeric String, we need to split the string into substrings of consecutive letters or numbers,
     //sort the individual string and append them back together
     //Ex:
     //Input:  "DC501GCCCA098911"
     //OutPut: "CD015ACCCG011899"
+
 
     public static void main(String[] args) {
 
@@ -18,16 +21,6 @@ public class lab15 {
 
 
         }
-
-
-
-
-
-
-
-
-
-
 //        String name1=name.substring(0,5);
 //        String name2=name.substring(5);
 //        char [] new1=name1.toCharArray();
