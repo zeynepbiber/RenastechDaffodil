@@ -17,18 +17,19 @@ public class lab07 {
         //(Array) Concat two arrays
         //Write a return method that can concate two arrays
 
-            String [] result= new String[ first.length + second.length];
-            int index=0;
+         String [] result= new String[ first.length + second.length];
+         int index=0;
 
         for (int i = 0; i < first.length; i++) {
              result[index]=first[i];
-             index++;    }
+             index++; }
 
         for (int i = 0;  i < second.length; i++) {
              result[index]=second[i];
-             index ++;   }
+             index ++; }
 
-        return result;
-    }
+        return result;  }
+
+
 
 }
