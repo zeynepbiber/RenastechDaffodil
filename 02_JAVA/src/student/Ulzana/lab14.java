@@ -2,14 +2,14 @@ package student.Ulzana;
 
 public class lab14 {
 
-    //Write a method that can return the sum of the digits in a string
-
     public static void main(String[] args) {
 
 
-        System.out.println(sumOfNumInString("2022- RenasTechC5"));
+        System.out.println(sumOfNumInString("2022- RenasTech"));
 
     }
+
+//Write a method that can return the sum of the digits in a string
 
     public static int sumOfNumInString(String word){
 
@@ -20,8 +20,6 @@ public class lab14 {
              result+=Integer.parseInt(String.valueOf(word.charAt(i)));}}
 
         return result;    }
-
-
 
 
 

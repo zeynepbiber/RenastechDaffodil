@@ -4,7 +4,6 @@ public class lab16 {
 
     //1. Write a return method that can verify if a password is valid or not.
     //requirements:
-
     //1. Password MUST be at least have 6 characters and should not contain space
     //2. PassWord should at least contain one upper case letter
     //3. PassWord should at least contain one lowercase letter
@@ -25,10 +24,6 @@ public class lab16 {
         System.out.println( validPassword("APPLE13$"));     //false
         System.out.println( validPassword("apple13$"));     //false
         System.out.println( validPassword("applE13$"));     //TRUE
-
-
-
-
     }
 
     public static boolean validPassword ( String password) {
@@ -38,7 +33,8 @@ public class lab16 {
         boolean b3 = false;
         boolean b4 = false;
         boolean b5 = false;
-           for (int i = 0; i < password.length(); i++) {
+
+          for (int i = 0; i < password.length(); i++) {
 
             if (password.charAt(i) >= 65 && password.charAt(i) <= 90)  { b2 = true; }
 
@@ -48,14 +44,10 @@ public class lab16 {
                 && ( password.charAt(i)>=91 &&   password.charAt(i)<=96) ||  ( password.charAt(i)>=123 &&   password.charAt(i)<=126)){
                 b4=true;}
 
-            if ( password.charAt(i)>=48 &&  password.charAt(i)<=57){ b5=true; }    }
+            if ( password.charAt(i)>=48 &&  password.charAt(i)<=57){ b5=true; }  }
 
         boolean result = b1 && b2 && b3 && b4 && b5;
-
-
-        return result;   }
-
-
+         return result;   }
 
 
 }

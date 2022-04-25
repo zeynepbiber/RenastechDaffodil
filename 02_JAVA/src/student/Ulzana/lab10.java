@@ -18,4 +18,6 @@ public class lab10 {
                 if (i % 3 == 0)   { System.out.print(" *FIN* ");}
                 if (i % 5 == 0)   { System.out.print(" *RA* ");}  } }
 
+
+
 }

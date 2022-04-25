@@ -2,8 +2,6 @@ package student.Ulzana;
 
 public class lab12 {
 
-//Write a method which can identifies given number is even or odd
-
     public static void main(String[] args) {
 
         System.out.println(numberODDorEven(0));
@@ -11,7 +9,7 @@ public class lab12 {
         System.out.println(numberODDorEven(36));
     }
 
-
+    //Write a method which can identifies given number is even or odd
 
     public static String numberODDorEven(int number){
 
