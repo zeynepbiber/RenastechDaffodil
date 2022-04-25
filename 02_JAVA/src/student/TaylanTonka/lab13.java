@@ -1,26 +1,47 @@
 package student.TaylanTonka;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+
 public class lab13 {
     //String -- Frequency of Characters
     //Write a return method that can find the frequency of characters
     public static void main(String[] args) {
-        frequency("labaratuvar");
+
+        calFrequency("labaratuvardakimikroskop");
     }
 
-    public static void frequency(String a)
+
+
+    public static void calFrequency(String a)
     {
-        for(int i =0;i<a.length();i++)
+
+        ArrayList<Character> chars = new ArrayList<Character>();
+
+        for(int i=0;i<a.length();i++)
         {
-            int count =0;
-            for(int z=0;z<a.length();z++)
+            chars.add(a.charAt(i));
+        }
+        HashSet<Character> unique = new HashSet<>(chars);
+
+
+        ArrayList<Character> uniquaLast = new ArrayList<>(unique);
+        for(int i=0;i<uniquaLast.size();i++)
+        {
+            char temp = uniquaLast.get(i);
+            int count = 0;
+            for(int z=0;z<chars.size();z++)
             {
-                if(a.charAt(i) == a.charAt(z))
+                if(temp==chars.get(z))
                 {
                     count++;
                 }
             }
-            System.out.println(a.charAt(i)+" =  " + count);
+            System.out.println("Character of "+uniquaLast.get(i) +" is existing =" + count);
         }
 
+
     }
+
 }
