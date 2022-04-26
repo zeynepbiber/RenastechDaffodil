@@ -77,5 +77,18 @@ public class c2_StaticVariables {
 
     }
 
+    {
+      //block
+    }
+
+    //local variable : declerad inside of block
+
+    //instance variable :declared outside of the blocks
+    //instance variable can have multiple copy from object
+    //they needs to be called through object
+
+    //static variables :declared outside of any block with static keyword
+    //static variable can only have one copy from object
+    //they can also be called with classname itself
 
 }
