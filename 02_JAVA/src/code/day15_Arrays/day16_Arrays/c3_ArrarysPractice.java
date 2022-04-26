@@ -1,4 +1,4 @@
-package code.day16_Arrays;
+package code.day15_Arrays.day16_Arrays;
 
 import java.util.Arrays;
 
