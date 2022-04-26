@@ -24,6 +24,5 @@ public class BMWObjects {
 
         System.out.println(car2);
 
-
     }
 }
