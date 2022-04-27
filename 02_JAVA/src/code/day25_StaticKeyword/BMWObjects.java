@@ -6,8 +6,7 @@ public class BMWObjects {
         //
         BMW car1=new BMW();
 
-        System.
-                out.println(car1);
+        System.out.println(car1);
 
         car1.setCarInfo(2010 , 25300.55);
         System.out.println( car1.modelYear);
