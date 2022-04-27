@@ -1,4 +1,4 @@
-package code.Day26_StaticBloc_Constructor;
+package code.day26_StaticBloc_Constructor;
 
 public class ConstructorInfo {
 
@@ -33,4 +33,6 @@ public class ConstructorInfo {
 
 
     }
+
+    //updated package name
 }

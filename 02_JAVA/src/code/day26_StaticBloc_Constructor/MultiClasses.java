@@ -1,4 +1,4 @@
-package code.Day26_StaticBloc_Constructor;
+package code.day26_StaticBloc_Constructor;
 
 // in java we can have only public class in.
 
