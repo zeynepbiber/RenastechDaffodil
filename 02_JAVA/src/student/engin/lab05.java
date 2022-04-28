@@ -12,7 +12,6 @@ max(arr1);
     public static void max (int [] arr){
         int max=arr[0];
         for (int i = 0; i < arr.length; i++) {
-            max=arr[0];
             if (arr[i]>max) {
                 max=arr[i];
             }
