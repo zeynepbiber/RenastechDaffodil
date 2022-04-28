@@ -7,7 +7,7 @@ public class lab07 {
 public static void main(String[] args) {
     int[] a={1,2,3};
     int[] b={4,5,6};
-    System.out.println(Arrays.toString(concate2arr(a, b)) );
+    System.out.println(Arrays.toString(concate2arr(a, b)));
     
 }
 
@@ -19,10 +19,7 @@ public static int[] concate2arr(int[] arr1, int[] arr2){
     for (int i = 0; i < arr2.length; i++) {
         arr3[arr1.length+i]=arr2[i];
     }
-   // System.out.println(Arrays.toString(arr3));
-
-    return arr3;
-    
+    return arr3;   
 }
 
 }
