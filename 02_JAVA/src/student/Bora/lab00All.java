@@ -240,8 +240,6 @@ class lab12{
 
 
 
-
-
 class lab13{
     public static void main(String[] args) {
         String name="how often we do";
@@ -262,13 +260,150 @@ class lab13{
 
 
 }
+
+
 class lab14{
+    public static void main(String[] args) {
+        String some="6there7are6somany3";
+        System.out.println(sum(some));
+    }
+    public static int sum(String a){
+        int sum=0;
+        for (int i=0; i<a.length();i++) {
+         if (a.charAt(i)>=48&&a.charAt(i)<=57){
+             sum+=Integer.parseInt(a.charAt(i)+"");
+         }
+        }
+        return sum;
+    }
 
 
 }
-class lab15{}
-class lab16{}
-class lab17{}
-class lab18{}
-class lab19{}
+
+
+class lab15{
+    /*
+    public static void main(String[] args) {
+        String some="6there7are6somany3";
+        System.out.println(sum(some));
+    }
+    public static int sum(String a){
+
+        int max=0;
+        for (int i=0; i< a.length() ;i++){
+            for (int j=0;j<a.length();j++){
+                if(a.charAt(i)>a.charAt(j)){
+                    max=a.charAt(i);
+                    a.charAt(i)=a.charAt(j);
+                    a.charAt(j)=max;
+        return max;
+    }
+}}}*/}
+class lab16{
+    public static void main(String[] args) {
+        String psw="Ar*512435";
+        System.out.println(psw(psw));
+    }
+    public static boolean psw(String a){
+        boolean bo=true;
+    if (!(a.length()>=6)){
+        bo=false;
+    }
+    int tem=0;
+    for (int i=0;i<a.length();i++){
+        if (a.charAt(i)>=65&&a.charAt(i)<=90){
+            tem++;
+        }
+    }
+    if (tem==0){
+        bo=false;
+    }
+
+
+        int tem2=0;
+        for (int i=0;i<a.length();i++){
+            if (a.charAt(i)>=97&&a.charAt(i)<=122){
+                tem2++;
+            }
+        }
+        if (tem2==0){
+            bo=false;
+        }
+
+
+
+        int tem3=0;
+        for (int i=0;i<a.length();i++){
+            if ((a.charAt(i)>=32&&a.charAt(i)<=47)||(a.charAt(i)>=58&&a.charAt(i)<=64)||(a.charAt(i)>=91&&a.charAt(i)<=96)||(a.charAt(i)>=123&&a.charAt(i)<=126)){
+                tem3++;
+            }
+        }
+        if (tem3==0){
+            bo=false;
+        }
+
+
+
+        int tem4=0;
+        for (int i=0;i<a.length();i++){
+            if (a.charAt(i)>=48&&a.charAt(i)<=57){
+                tem4++;
+            }
+        }
+        if (tem4==0){
+            bo=false;
+        }
+
+
+
+        return bo;
+    }
+}
+class lab17{
+
+    public static void main(String[] args) {
+        int[] zer={1,0,2,0,3,0,4,0};
+        System.out.println(Arrays.toString(zero(zer)));
+    }
+    public static int[] zero(int[]a){
+        int count=0;
+        int[] arr2=new int[a.length];
+        for (int i=0; i<a.length;i++){
+            if (a[i]==0){
+                count++;
+            }else {
+                arr2[i-count]=a[i];
+            }
+
+        }
+
+        for (int i=a.length-1; i>=a.length-count;i--){
+            arr2[i]=0;
+        }
+        return arr2;
+    }
+}
+class lab18{
+    public static void main(String[] args) {
+        int numb=4;
+        System.out.println(fak(numb));
+    }
+    public static int fak(int a) {
+        int fak=1;
+        for (int i = a;i>=1;i-- ){
+            fak*=i;
+        }
+        return fak;
+    }
+}
+class lab19{
+    public static void main(String[] args) {
+        int a=0; int b=1; int sum=1;
+        System.out.println(sum);
+        for (int i=0;i<=44;i++){
+            sum=a+b;
+            a=b;
+            b=sum;
+            System.out.println(sum);
+}}}
 class lab20{}
