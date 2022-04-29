@@ -22,18 +22,17 @@ public class Shoe {
     //local variables : local variables that we declared with in block(main method,other methods ,static block)
   //instance variables : object variables that we create inside of class
     //instance variables can not have static specifier
-    //needs to be decleared outside of methods or blocks
+    //needs to be declared outside of methods or blocks
 
-
- //Access-Modifer =public, protected ,default ,priavate
+ //Access-Modifier =public, protected ,default ,private
 //specifier   : static ,final ,abstract ,synchronized
 //return type : void , any datatype(int,string,char , int [] .......)
-//some method has paramertes some dont have parameter
+//some method has parameters some don't have parameter
 
 
     //instance variables : object variables that we create inside of class
     //instance variables can not have static specifier
-    //needs to be decleared outside of methods or blocks
+    //needs to be declared outside of methods or blocks
 
     String brand; // instance variables  , more info: brand size abd color are attribute of the Shoe.
     int size;
@@ -44,7 +43,6 @@ public class Shoe {
     public void wear(){ // function of shoe class
 
         System.out.println("She/He is wearing "+brand+" .");
-
     }
 
     public void getShoeInfo(){
@@ -69,3 +67,4 @@ public class Shoe {
     }
 
 }
+
