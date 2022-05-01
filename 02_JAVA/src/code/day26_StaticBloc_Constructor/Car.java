@@ -10,13 +10,16 @@ public class Car {
     double price;
     String color;
 
+    //constructor
+    //we need access modifier and class name in order to create a constructor.
+    //ex1:
     public Car(String brand, int year, double price, String color){ // 4 parameters
         this.brand=brand;
         this.year=year;
         this.price=price;
         this.color=color;
     }
-
+    //ex2:
     public Car(String brand, int year){// 2 parameters
 
         this.brand=brand;
