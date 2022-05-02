@@ -7,7 +7,8 @@ public class lab09 {
 
 public static void main(String[] args) {
     int[] arr = {10,20,7,8,90};
-    System.out.println(Arrays.toString(arr));
+    System.out.println(Arrays.toString(ascanding(arr)));
+    
 }
 
 public static int[] ascanding(int[] arr) {
@@ -16,7 +17,7 @@ public static int[] ascanding(int[] arr) {
         isSwapped=true;
         int temp=0;
         for(int i =0;i<arr.length;i++) {
-            if(arr[i+1]<arr.length && arr[i]<arr[i+1]) {
+            if(i+1<arr.length && arr[i]<arr[i+1]) {
                 temp = arr[i+1];
                 arr[i+1] = arr[i];
                 arr[i] = temp;
