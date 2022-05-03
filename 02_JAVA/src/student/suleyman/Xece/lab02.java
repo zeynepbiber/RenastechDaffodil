@@ -1,4 +1,4 @@
-package student.Xece;
+package student.suleyman.Xece;
 
 public class lab02 {
 
