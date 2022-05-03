@@ -1,4 +1,4 @@
 package student.HaticeKarakoyun;
 
-public class lab01 {
+public class lab02 {
 }
