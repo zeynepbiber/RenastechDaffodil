@@ -12,5 +12,8 @@ public class EncapObject {
         obj1.setIdNum(1234234);
         System.out.println(obj1.getIdNum());
 
+        obj1.setAge(35);
+        System.out.println(obj1.getAge());
+
     }
 }
