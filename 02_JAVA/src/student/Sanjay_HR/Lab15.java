@@ -7,7 +7,6 @@ public class Lab15 {
     //Input:  "DC501GCCCA098911"
     //OutPut: "CD015ACCCG011899"
     public static void main(String[] args) {
-        //System.out.println(password("12ABC3"));
         password("DC501GCCCA098911GHTP");  //out: CD015ACCCG011899
     }
     public static void password(String str) {
@@ -23,8 +22,7 @@ public class Lab15 {
             }
             if (Character.isDigit(str.charAt(i)) && i < str.length() - 1) {
                 if (Character.isLetter(str.charAt(i + 1))) {
-                    output += "-"; //does same as line 19. checks again cause found digit and stops. we can use
-                    // While loop here too.
+                    output += "-"; //does same as line 19. checks again cause found digit and stops.
                 }
             }
         }
