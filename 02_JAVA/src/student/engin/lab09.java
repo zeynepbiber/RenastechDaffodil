@@ -8,8 +8,9 @@ public class lab09 {
 //         arr = Sort(arr); ==> {90, 20, 10, 8, 7};
 
 public static void main(String[] args) {
-    int[] intArr = {10,20,7,8,90};
-    System.out.println(Arrays.toString(ascanding(intArr)));
+    int[] arr = {10,20,7,8,90};
+    System.out.println(Arrays.toString(ascanding(arr)));
+
 }
 
 public static int[] ascanding(int[] arr)
@@ -19,7 +20,7 @@ public static int[] ascanding(int[] arr)
         isSwapped=true;
         int temp=0;
         for(int i =0;i<arr.length-1;i++) {
-            if(arr[i]<arr[i+1]) {
+            if(i+1<arr.length   && arr[i]<arr[i+1]) {
                 isSwapped=false;
                 temp = arr[i+1];
                 arr[i+1] = arr[i];
