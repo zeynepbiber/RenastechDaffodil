@@ -6,7 +6,7 @@ public class Lab19 {
     fibonacci(25);
     }
     public static int fibonacci(int a){
-        int first=1, second=1, sum;
+        int first=1, second=1, sum=0;
         System.out.print("Fibonacci series(Sum of previous two numbers): "+first+", ");
         System.out.print(second+", ");
         for(int x=3; x<=a; x++){
@@ -15,6 +15,6 @@ public class Lab19 {
             first=second;
             second=sum;
         }
-        return second;
+        return sum;
     }
 }
