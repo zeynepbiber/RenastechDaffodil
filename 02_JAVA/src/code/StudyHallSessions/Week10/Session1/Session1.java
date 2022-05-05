@@ -1,4 +1,4 @@
-package code.StudyHallSessions.Week10;
+package code.StudyHallSessions.Week10.Session1;
 
 
 import java.util.ArrayList;
