@@ -5,8 +5,8 @@ public class EncapObject {
     public static void main(String[] args) {
         EncapsulationIntro obj1=new EncapsulationIntro();
        // obj1.name="Hello world";
-        //name is not accesible beacuse it is priavate
-        obj1.setName("Hello");
+        //name is not accessible because it is private
+
 //        System.out.println(obj1.name);
         System.out.println(obj1.getName());
         obj1.setIdNum(1234234);

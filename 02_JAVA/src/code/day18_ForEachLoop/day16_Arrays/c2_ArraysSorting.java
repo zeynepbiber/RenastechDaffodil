@@ -1,4 +1,4 @@
-package code.day16_Arrays;
+package code.day18_ForEachLoop.day16_Arrays;
 
 import java.util.Arrays;
 

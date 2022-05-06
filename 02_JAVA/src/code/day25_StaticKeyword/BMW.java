@@ -12,7 +12,7 @@ public class BMW {
     //......
 
     //if you are not going to create multiple copy from object better to use static variables
-    // ex : folderPaths , enviromentName , specific url
+    // ex : folderPaths , environmentName , specific url
 
     static String brand = "BMW" ;
     static boolean hasEngine=true;

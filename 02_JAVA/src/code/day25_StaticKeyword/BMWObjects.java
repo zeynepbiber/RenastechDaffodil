@@ -20,6 +20,7 @@ public class BMWObjects {
         //you can call by className
         System.out.println(car1);
 
+
         BMW car2=new BMW();
 
         System.out.println(car2);

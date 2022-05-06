@@ -25,7 +25,7 @@ public class c3_StaticMethods {
         System.out.println("obj1.aInstance = " + obj1.aInstance);
         System.out.println(bStatic);
 
-       // instanceMethod() // we cant call instance method with out object
+       // instanceMethod() // we can not call instance method without object
 
         obj1.instanceMethod();
 
@@ -46,6 +46,7 @@ public class c3_StaticMethods {
     }
 
     public static void staticMethod(){
+
         System.out.println("Static method");
     }
 
