@@ -14,10 +14,10 @@ public class lab14 {
 
         for (int i = 0; i < a.length(); i++) {
 
-            int ascii = (int) a.charAt(i);
+            int ascii = a.charAt(i);
             if (ascii <= 57 && ascii >= 48) {
 
-                sum += Integer.parseInt(String.valueOf(a.charAt(i)));
+                sum += Integer.parseInt(a.charAt(i)+"");
             }
         }
 
