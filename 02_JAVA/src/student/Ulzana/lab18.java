@@ -1,4 +1,4 @@
-package student.mahir.Ulzana;
+package student.Ulzana;
 
 import java.util.Scanner;
 
