@@ -10,7 +10,7 @@ import java.util.Set;
 
 public class lab_03 {
 
-    public static void main(String[] args) { // set doesn't allow duplicate value
+    public static void main(String[] args) {
 
         System.out.println(removeDup("GGGUULLEEE"));
     }
@@ -23,7 +23,7 @@ public class lab_03 {
             name.add(ch); //[A,B,C]
         }
         String newString = "";
-        for (char ch1:name) { // left side of foreach data type of the collection, right side object name of the collection.
+        for (char ch1:name) {
             newString = newString+ch1;
         }
         return newString;
