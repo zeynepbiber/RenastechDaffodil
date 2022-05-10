@@ -1,4 +1,4 @@
-package code.day19_methods.day26_StaticBloc_Constructor;
+package code.day26_StaticBloc_Constructor;
 
 public class Car {
 
