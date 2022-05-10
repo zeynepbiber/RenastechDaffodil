@@ -1,4 +1,4 @@
-package student.engin.TaylanTonka;
+package student.TaylanTonka;
 
 public class lab18 {
     //Write a return method that returns the factorial number of any given number

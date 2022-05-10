@@ -1,4 +1,4 @@
-package student.engin.TaylanTonka;
+package student.TaylanTonka;
 
 public class  lab02 {
     //Write a return method that check if a string is build out of the same letters as another string.

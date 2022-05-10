@@ -33,7 +33,6 @@ public class c5_AccessModifiers {
         System.out.println("obj1.protectedVariable = " + obj1.protectedVariable);
         System.out.println("obj1.defaultVariable = " + obj1.defaultVariable);
 
-
     }
 
 

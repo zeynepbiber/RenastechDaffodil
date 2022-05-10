@@ -1,4 +1,4 @@
-package student.engin.TaylanTonka;
+package student.TaylanTonka;
 
 public class lab04 {
     //Write a return method that can find the unique characters from the String
