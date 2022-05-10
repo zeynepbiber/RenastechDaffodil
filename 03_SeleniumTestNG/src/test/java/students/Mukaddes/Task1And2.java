@@ -1,10 +1,10 @@
-package students;
+package students.Mukaddes;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Mukaddes {
+public class Task1And2 {
     //Go to https://www.etsy.com/
     //Maximize window
 
@@ -24,12 +24,4 @@ public class Mukaddes {
         driver1.get("https://www.etsy.com/");
         driver1.manage().window().maximize();
     }
-
-
-    }
-
-
-
-
-
-
+}
