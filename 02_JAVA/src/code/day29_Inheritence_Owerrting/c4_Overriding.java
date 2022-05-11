@@ -16,7 +16,7 @@ class test5{
 public class c4_Overriding extends  test5{
     //after extending method2 and number will be inherited from the parent
 
-    //overloading means same method with different loads
+    //overloading measn same method with different loads
 
     public void method1(int number){
 

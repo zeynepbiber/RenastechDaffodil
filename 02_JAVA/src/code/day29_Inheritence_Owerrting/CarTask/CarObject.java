@@ -23,12 +23,5 @@ public class CarObject {
         tesla.startCar();
         tesla.consume();
         tesla.stopCar();
-
-        GenericUtils.Stars();
-
-        Toyota toyota=new Toyota();
-        toyota.startCar();
-        toyota.consume();
-        toyota.startCar();
     }
 }

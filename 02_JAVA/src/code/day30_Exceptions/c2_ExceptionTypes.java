@@ -20,25 +20,24 @@ public class c2_ExceptionTypes {
 
         //			1.unchecked (unexpected event):If a program throws an unchecked exception,
 //			it reflects some error inside the program logic
-        //it happens after you run
-//			occurs during run time
+//			occures during run time
 //				RuntimeException class is the parent of all exceptions
 
-        //System.out.println(20/0);//ArrithmeticException
+        //System.out.println(20/0);ArrithmeticException
 
         String  name= "Java";
-       // System.out.println(name.charAt(10));//StringIndexOutOfBoundsException
+        //System.out.println(name.charAt(10));//StringIndexOutOfBoundsException
 
         int [] arr={3,4,5};
         //System.out.println(arr[5]);//ArrayIndexOutOfBoundsException
 
 
-              // checked exception
+        ///
         //Thread.sleep(5000); //InterruptedException
         //this is checked exceptions because it gives us warning message before we run the code
 
         File file1=new File("Hello.txt");
-        //FileInputStream fileInputStream=new FileInputStream(file1); //checked exceptions
+        //FileInputStream fileInputStream=new FileInputStream(file1); checked exceptions
 
 
     }

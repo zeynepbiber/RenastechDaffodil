@@ -29,7 +29,6 @@ The keyword used for inheritance is extends.
     public  char gender;
 
 
-
     public void eat(String food){
         System.out.println(name + " is eating " + food);
     }
