@@ -1,4 +1,4 @@
-package student.erinc.TaylanTonka;
+package student.TaylanTonka;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;

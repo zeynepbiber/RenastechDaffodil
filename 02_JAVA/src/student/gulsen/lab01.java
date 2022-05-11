@@ -1,4 +1,4 @@
-package student.Firat.gulsen;
+package student.gulsen;
 
 public class lab01 {
     public static void main(String[] args) {

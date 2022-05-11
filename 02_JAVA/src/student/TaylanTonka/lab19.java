@@ -1,4 +1,4 @@
-package student.erinc.TaylanTonka;
+package student.TaylanTonka;
 
 public class lab19 {
 
