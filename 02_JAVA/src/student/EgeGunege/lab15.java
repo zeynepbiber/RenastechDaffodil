@@ -9,7 +9,6 @@ public class lab15 {
      String str="DC501GCCCA098911";
      ArrayList<String> part = new ArrayList<>();
      ArrayList<ArrayList<Character>> array=new ArrayList<>();
-     ArrayList<Character> resultArray=new ArrayList<>();
      String result="";
      part.addAll(Arrays.asList(str.split("((?<=[a-zA-Z])(?=[0-9]))|((?<=[0-9])(?=[a-zA-Z]))")));
         for (String each:part) {
@@ -22,12 +21,10 @@ public class lab15 {
         }
         for (ArrayList each:array) {
             for (int j = 0; j < each.size(); j++) {
-                resultArray.add((Character) each.get(j));
+                result+=each.get(j);
             }
         }
-        for (int k = 0; k < resultArray.size(); k++) {
-            result+=resultArray.get(k);
-        }
+
         System.out.println(result);
     }
 }
