@@ -22,7 +22,7 @@ public class BMWObjects {
 
         BMW car2=new BMW();
 
-        System.out.println(car1);
+        System.out.println(car2);
 
     }
 }
