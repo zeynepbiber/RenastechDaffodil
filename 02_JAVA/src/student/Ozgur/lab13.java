@@ -1,10 +1,10 @@
-package student.Ulzana;
+package student.Ozgur;
 
 public class lab13 {
 
     public static void main(String[] args) {
 
-        System.out.println(frequency("Kazakhstan"));
+        System.out.println(frequency("they don't know we know they know"));
 
     }
 
@@ -29,3 +29,6 @@ public class lab13 {
 
 
 }
+
+
+
