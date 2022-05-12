@@ -15,13 +15,13 @@ public class lab01 {
  */
 
 
-        public static void main(String[] args) {
-            WebDriverManager.chromedriver().setup();
-            WebDriver driver = new ChromeDriver();
+    public static void main(String[] args) {
+        WebDriverManager.chromedriver().setup();
+        WebDriver chrome = new ChromeDriver();
+        chrome.get("https://www.etsy.com/");
+        chrome.manage().window().maximize();
+        chrome.manage().window().minimize();
 
-
-            driver.manage().window().maximize();
-            driver.manage().window().minimize();
 
         /*
         ## Task 2
@@ -32,8 +32,8 @@ public class lab01 {
 
             System.out.println("****************");
 
-            driver.get("https://www.amazon.com/");
-            String title = driver.getTitle();
+            chrome.get("https://www.amazon.com/");
+            String title = chrome.getTitle();
             System.out.println("Title of current page is = " + title);
         }
     }
