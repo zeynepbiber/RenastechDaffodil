@@ -17,6 +17,8 @@ public class c1_HelloSelenium {
         //navigate to chrome browser
         driver.get("https://www.etsy.com/");
 
-
     }
 }
+
+
+
