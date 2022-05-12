@@ -1,4 +1,4 @@
-package code.StudyHallSessions.Week11;
+package code.StudyHallSessions.Week11.Session1;
 
 import java.io.File;
 import java.io.IOException;
