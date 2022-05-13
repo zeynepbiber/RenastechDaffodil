@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Lab01 {
     //Write a return method that can reverse  String
     //Ex: Reverse("ABCD"); ==> DCBA
-    // gulistan
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);

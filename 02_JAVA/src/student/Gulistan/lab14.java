@@ -1,4 +1,4 @@
-package student.AgitCan;
+package student.Gulistan;
 //Write a method that can return the sum of the digits in a string
 public class lab14 {
 

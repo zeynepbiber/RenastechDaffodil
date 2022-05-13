@@ -1,4 +1,4 @@
-package student.AgitCan;
+package student.Gulistan;
 
 import java.util.Arrays;
 //Write a method that can find the minimum number from an int Array

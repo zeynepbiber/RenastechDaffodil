@@ -1,4 +1,4 @@
-package student.AgitCan;
+package student.Gulistan;
 
 import java.util.ArrayList;
 import java.util.List;

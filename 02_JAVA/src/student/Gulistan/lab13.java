@@ -1,4 +1,4 @@
-package student.AgitCan;
+package student.Gulistan;
 
 import java.util.Arrays;
 import java.util.Objects;

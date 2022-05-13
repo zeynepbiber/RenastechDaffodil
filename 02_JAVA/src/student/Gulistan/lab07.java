@@ -1,5 +1,5 @@
 //Write a return method that can concat two arrays
-package student.AgitCan;
+package student.Gulistan;
 
 import java.util.ArrayList;
 import java.util.Arrays;
