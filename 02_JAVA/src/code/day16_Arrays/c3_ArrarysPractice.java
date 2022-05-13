@@ -2,7 +2,7 @@ package code.day16_Arrays;
 
 import java.util.Arrays;
 
-public class c3_ArraysPractice {
+public class c3_ArrarysPractice {
 
     public static void main(String[] args) {
 

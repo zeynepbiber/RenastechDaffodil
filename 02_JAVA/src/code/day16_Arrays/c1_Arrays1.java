@@ -2,7 +2,7 @@ package code.day16_Arrays;
 
 import java.util.Arrays;
 
-public class c1_Arrays {
+public class c1_Arrays1 {
     public static void main(String[] args) {
 
         // find the sum of the numbers from int array
