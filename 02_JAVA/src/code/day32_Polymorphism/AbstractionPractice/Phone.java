@@ -44,13 +44,13 @@ interface appleStore extends dowloaddable{
     //below methods will be inherited in here
     //download  and downloadApp();
 
-    String storeName="Apple"; //final static
+    String storeName="AppleStore"; //final static
 }
 
 interface playStore extends dowloaddable{
     //below methods will be inherited in here
     //download  and downloadApp();
-    String storeName="Play"; //final static
+    String storeName="PlayStore"; //final static
 
 
 }
