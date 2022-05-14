@@ -18,8 +18,10 @@ public class c1_HelloSelenium {
          driver.get("https://www.etsy.com/");
 
 
-
     }
 
 
 }
+
+
+
