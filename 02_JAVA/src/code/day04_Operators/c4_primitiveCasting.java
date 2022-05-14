@@ -11,8 +11,9 @@ public class c4_primitiveCasting {
         byte number1=20; //-128 to 127
         long number2=number1; //implicit casting (this will be done by java auto)
 
-        int i1=10;
+        int i1=100;
         byte b1=(byte)i1;//explicit casting . This needs to be done mannuaaly
+        System.out.println(b1);
 
         double d1=2.5;
         float f1=(float) d1;

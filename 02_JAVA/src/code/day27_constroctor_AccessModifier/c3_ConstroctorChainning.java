@@ -47,8 +47,10 @@ and make their chain which makes the program more readable.
         method2(); //4
     }
 
+
     public static void main(String[] args) {
-        c3_ConstroctorChainning obj = new c3_ConstroctorChainning("hello");
+       c3_ConstroctorChainning obj = new c3_ConstroctorChainning("dfkjd");
+
 
     }
 
