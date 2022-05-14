@@ -8,8 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class lab01 {
 
     public static void main(String[]args){
-
-          //  ##Task 1
+        //  ##Task 1
       //  Go to https://www.etsy.com/
        // Maximize window
         WebDriverManager.chromedriver().setup();
