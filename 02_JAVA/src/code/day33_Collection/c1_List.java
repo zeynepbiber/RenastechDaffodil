@@ -1,9 +1,6 @@
 package code.day33_Collection;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Vector;
+import java.util.*;
 
 // DAta Structurs
 //        1 Array (fixed)
@@ -83,6 +80,28 @@ public class c1_List {
 
         System.out.println(list3);
 
+        Stack<Integer> numbers = new Stack<>();
+        numbers.add(10);
+        numbers.add(20);
+        numbers.add(10);
+        numbers.add(5);
+        numbers.add(5);
+
+        System.out.println(numbers);
+
+        ////        pop(): LIFO, returns the last object from the stack and removes it from stack
+
+        Integer num=numbers.pop();
+        System.out.println("num = " + num);
+        System.out.println(numbers);
+
 
     }
 }
+
+
+//    //list general points ;
+//    //1.List are allowing dublicates objects
+//    //2.order : list will keep the insertion order.
+//    //3null elements : list will allow you to use any number of null elements;
+//    //4.list has dynamic size
