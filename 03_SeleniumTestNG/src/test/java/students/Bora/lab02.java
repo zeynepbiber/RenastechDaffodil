@@ -1,4 +1,4 @@
-package students.Bora.lab;
+package students.Bora;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
