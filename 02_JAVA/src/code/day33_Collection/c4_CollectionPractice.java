@@ -85,3 +85,33 @@ List allows any number of null elements. Set can have only a single null element
         System.out.println(newStr1.equals(newStr2));
     }
 }
+////Data Structure :
+//    //    Array (fixed, primitives & objects)
+//    //    Collection (dynamic, only objects)
+//    //    Map (dynamic, only objects)
+//    //
+//    //Map Interface: accepts key and value. cannot be primitives.
+//    //                key MUST be unique
+//    //Map methods:
+//    //    put(key, value): inserts key and value to map
+//    //    get(key): returns the value of the given key
+//    //    remove(key): removes the given key and it's value from the map
+//    //    size():
+//    //    containsKey(key): checks if the key is contained in the map. boolean
+//    //    containsValue(Value): checks if the value is contained in the map. boolean
+//    //    clear(): clears everything
+//    //    isEmpty(): boolean
+//    //    keySet(): returns all the keys from the map as Set
+//    //    values(): returns all the values from the map as Collection
+//    //    setEntry():
+//
+//    // HashMap: does not keep the insertion order
+//    //         accepts null
+//    // HashTable: is synchronized, thread-safe ==> one thread at a time
+//    //             slower
+//    //             does not accept null
+//    // LinkedHashMap: keeps the insertion order as it's.
+//    //             put & remove are faster
+//    //             accepts null
+//    // TreeMap: sorts the keys in ascending (sorted map)
+//    //         does not accept null
