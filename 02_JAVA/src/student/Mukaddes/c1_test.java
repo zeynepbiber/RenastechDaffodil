@@ -1,4 +1,4 @@
-package student.Ozgur.Mukaddes;
+package student.Mukaddes;
 
 public class c1_test {
     public static void main(String[] args) {
