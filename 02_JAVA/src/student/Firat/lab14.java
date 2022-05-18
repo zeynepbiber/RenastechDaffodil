@@ -14,8 +14,7 @@ public class lab14 {
                 result+=Integer.parseInt(String.valueOf(a.charAt(i)));
             }
 
-        }
-        public class lab14 {
+        }public class lab14 {
             //Write a method that can return the sum of the digits in a string
             public static void main(String[] args) {
                 System.out.println(sumania("jg2fghh3h"));
