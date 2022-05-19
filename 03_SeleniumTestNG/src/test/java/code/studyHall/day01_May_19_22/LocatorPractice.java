@@ -7,9 +7,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class amazonTest {
+public class LocatorPractice {
     public static void main(String[] args) {
-        //Go to Apple.ca
+        //http://automationpractice.com/index.php
         //Verify if you landed on correct website
 
         WebDriverManager.chromedriver().setup();
