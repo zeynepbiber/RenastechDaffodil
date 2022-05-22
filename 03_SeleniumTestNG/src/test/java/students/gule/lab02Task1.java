@@ -13,7 +13,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class day02_Task1 {
+public class lab02Task1 {
     public static void main(String[] args) throws InterruptedException {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
@@ -25,7 +25,7 @@ public class day02_Task1 {
 
         String exceptedTitle="Facebook - Log In or Sign Up";
         String actualTitle=driver.getTitle();
-        if(actualTitle.equals(exceptedTitle)){
+        if(actualTitle.equalsIgnoreCase(exceptedTitle)){
             System.out.println("Facebook title verification has passed.");
         }
         else{

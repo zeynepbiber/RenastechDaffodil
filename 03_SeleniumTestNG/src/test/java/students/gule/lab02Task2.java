@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 // Verify Current Url
 // Go to https://www.amazon.com/
 // Verify title // Verify Current Url // Navigate Back // Refresh // Quit browser
-public class day02_Task2 {
+public class lab02Task2 {
     public static void main(String[] args) throws InterruptedException {
 
         WebDriverManager.chromedriver().setup();
