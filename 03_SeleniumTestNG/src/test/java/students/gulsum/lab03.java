@@ -81,8 +81,5 @@ public class lab03 {
         WebElement loginbutton=driver1.findElement(By.name("Submit"));
         loginbutton.click();
 
-
-
-
     }
 }
