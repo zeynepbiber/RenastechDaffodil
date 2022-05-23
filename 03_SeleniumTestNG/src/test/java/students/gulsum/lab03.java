@@ -80,7 +80,8 @@ public class lab03 {
         driver1.findElement(By.id("txtPassword")).sendKeys("admin123");
         WebElement loginbutton=driver1.findElement(By.name("Submit"));
         loginbutton.click();
-        System.out.println("test");
+
+
 
 
     }
