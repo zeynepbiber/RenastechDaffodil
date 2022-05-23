@@ -31,10 +31,5 @@ public class c1_browserNavigation {
 
 
 
-    }
-<<<<<<< HEAD
-}
-=======
+    }}
 
-}
->>>>>>> 36eea170b7025fcd39e6deffa2d41d8eda55ac10
