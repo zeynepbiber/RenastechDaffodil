@@ -82,7 +82,5 @@ public class lab03 {
         loginbutton.click();
 
 
-
-
     }
 }
