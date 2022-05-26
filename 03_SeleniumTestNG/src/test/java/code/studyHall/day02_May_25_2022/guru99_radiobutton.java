@@ -27,6 +27,7 @@ public class guru99_radiobutton {
         List<WebElement> checkBoxes=driver.findElements(By.xpath("//input[@type='checkbox']"));
         for (WebElement each:checkBoxes){
             if (!each.isSelected()){
+
                 System.out.println(each.getAttribute("value")+" is not selected");
             }else {
                 System.out.println(each.getAttribute("value")+" is selected");
