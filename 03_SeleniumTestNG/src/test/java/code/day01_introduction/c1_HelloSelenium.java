@@ -12,13 +12,13 @@ public class c1_HelloSelenium {
         WebDriverManager.chromedriver().setup();
 
 
-<<<<<<< HEAD
+
             System.out.println("Hello World");
             //set up chrome driver
             WebDriverManager.chromedriver().setup();
-=======
 
->>>>>>> 7d89d181a590510f98d0361a0ba12e4a33142326
+
+
 
                 //create a driver instance
                 WebDriver driver = new ChromeDriver();
@@ -34,10 +34,10 @@ public class c1_HelloSelenium {
 
 
     }
-<<<<<<< HEAD
 
 
-=======
+
+
 }
->>>>>>> 7d89d181a590510f98d0361a0ba12e4a33142326
+
 
