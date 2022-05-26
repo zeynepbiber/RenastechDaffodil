@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class guru99_radiobutton {
+public class locatersPractice {
     @Test(priority = 1)
     public void TC_1(){
         //1. Open Chrome browser
