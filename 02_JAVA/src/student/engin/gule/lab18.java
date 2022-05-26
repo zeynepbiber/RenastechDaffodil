@@ -1,4 +1,4 @@
-package student.gule;
+package student.engin.gule;
 
 import java.util.Scanner;
 //Write a return method that returns the factorial number of any given number

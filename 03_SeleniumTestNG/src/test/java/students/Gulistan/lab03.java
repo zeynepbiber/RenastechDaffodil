@@ -1,5 +1,4 @@
 package students.Gulistan;
 
-public class lab01 {
-
+public class lab03 {
 }

@@ -1,4 +1,4 @@
-package student.gule;
+package student.engin.gule;
 //String -- Frequency of Characters
 //Write a return method that can find the frequency of characters
 public class lab13 {
