@@ -16,7 +16,7 @@ public class lab02 {
 //Navigate back
 //Navigate forward
 //Navigate to https://www.amazon.com
-//Verify title contains : Smile
+//Verify title contains : Smile.git
 
 
     public static void main(String[] args) throws InterruptedException {
