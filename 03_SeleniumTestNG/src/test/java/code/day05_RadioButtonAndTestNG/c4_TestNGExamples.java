@@ -13,7 +13,7 @@ public class c4_TestNGExamples {
     @AfterMethod
     public void closing(){ System.out.println("After method is running"); }
 
-    @Test(priority =3)
+    @Test(priority = 3)
     public void TC1(){
         System.out.println("Test 1 is running");
     }

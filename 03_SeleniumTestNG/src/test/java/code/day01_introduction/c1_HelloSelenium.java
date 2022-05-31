@@ -9,6 +9,7 @@ public class c1_HelloSelenium {
     public static void main(String[] args) {
         System.out.println("Hello World");
         //set up chrome driver
+        WebDriverManager.chromedriver().setup();
 
 
 
