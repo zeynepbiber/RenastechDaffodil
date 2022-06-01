@@ -1,4 +1,4 @@
-package students.firat;
+package students.gule.firat;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
