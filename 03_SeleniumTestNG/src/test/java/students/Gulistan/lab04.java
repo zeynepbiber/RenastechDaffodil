@@ -1,11 +1,11 @@
 package students.Gulistan;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+import code.utilities.WebDriverUtil;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class lab04 {
@@ -15,36 +15,29 @@ public class lab04 {
 //4. Click to checkbox3
 //5. Verify checkbox3 is selected
 
-    public static void main(String[] args) {
-
-        WebDriverManager.chromedriver().setup();
-
-        WebDriver driver = new ChromeDriver();
-
-        driver.get("https://demo.guru99.com/test/radio.html");
+    public static void main(String[] args) throws InterruptedException {
+        WebDriver driver = WebDriverUtil.getDriver("chrome");
         driver.manage().window().maximize();
-        int flag = 0;
-      //  WebElement checkBox = driver.findElement(By.xpath("//input[@type = 'checkbox']"));
-       List<WebElement> checkBox = driver.findElements(By.xpath("//input[@type = 'checkbox']"));
-        //checkBox = {cb1,cb2,cb3}
-       for(int i=0; i < checkBox.size(); i++){
+        driver.get("https://demo.guru99.com/test/radio.html");
+        List<WebElement>  checkBox = new ArrayList<>(driver.findElements(By.xpath("//input[@type='checkbox']")));
+        System.out.println(checkBox.size());
 
-           if (!checkBox.get(i).isSelected())
-               flag++;
-       }
+        for (int i=0;i< checkBox.size(); i++){
 
-       if (flag == 3)
-           System.out.println("All checkboxes are not selected!");
+            if (checkBox.get(i).isSelected()){
+                System.out.println("CheckBox "+i+" is selected");
+            }else{
+                System.out.println("CheckBox "+i+" is not selected");
+            }
+        }
+        driver.findElement(By.xpath("//input[@id='vfb-6-2']")).click();
 
-       //click to checkbox3
-        WebElement checkbox = driver.findElement(By.id("vfb-6-2"));
-        checkbox.click();
-
-       if(checkbox.isSelected()) {
-           System.out.println("Checkbox3 is selected");
-       }else{
-           System.out.println("Checkbox3 is not selected");
-       }
-
+        if(checkBox.get(2).isSelected()){
+            System.out.println("CheckBox3 is selected");
+        }else{
+            System.out.println("CheckBox3 is not selected");
+        }
+        Thread.sleep(2000);
+        driver.close();
     }
 }

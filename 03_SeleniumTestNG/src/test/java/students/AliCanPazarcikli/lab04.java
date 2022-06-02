@@ -1,6 +1,5 @@
 package students.AliCanPazarcikli;
 
-import code.utilities.WebDriverUtil;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

@@ -13,16 +13,21 @@ import org.testng.annotations.Test;
 //(Use this task with TestNG framework)
 public class lab05 {
 
-    @Test()
-    public void TC1(){
+    @Test
+    public void TC1() throws InterruptedException {
         WebDriverManager.chromedriver().setup();
-
         WebDriver driver = new ChromeDriver();
-        driver.get("https://www.amazon.ca/");
+        driver.get("https://www.amazon.com/");
+        driver.manage().window().maximize();
+        driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Desks");
+        driver.findElement(By.id("nav-search-submit-button")).click();
+        Thread.sleep(1000);
+        driver.close();
 
-       driver.findElement(By.id("twotabsearchtextbox")).sendKeys("desks");
-       driver.findElement(By.id("nav-search-submit-button")).click();
+
 
     }
 
-}
+    }
+
+

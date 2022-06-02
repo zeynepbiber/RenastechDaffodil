@@ -1,7 +1,6 @@
 package code.studyHall.day02_May_25_2022;
 
 import code.utilities.WebDriverUtil;
-import com.github.dockerjava.api.model.Driver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

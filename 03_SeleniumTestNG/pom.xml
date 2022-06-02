@@ -38,20 +38,11 @@
             <scope>test</scope>
         </dependency>
 
-<!--<<<<<<< HEAD
-        &lt;!&ndash; https://mvnrepository.com/artifact/com.github.javafaker/javafaker &ndash;&gt;
-=======
->>>>>>> 1651bc300166b1012b5e107e661380be0caead74
         <dependency>
             <groupId>com.github.javafaker</groupId>
             <artifactId>javafaker</artifactId>
             <version>1.0.2</version>
         </dependency>
-<<<<<<< HEAD
-=======&ndash;&gt;
-
-
->>>>>>> 1651bc300166b1012b5e107e661380be0caead74-->
     </dependencies>
 
 </project>
