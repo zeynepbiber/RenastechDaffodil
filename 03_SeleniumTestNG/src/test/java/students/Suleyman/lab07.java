@@ -40,6 +40,8 @@ public class lab07 {
 
         BrowserUtils.wait(4);
         alert.accept();
+        BrowserUtils.wait(4);
+        alert.dismiss();
 
 
     }
