@@ -3,7 +3,7 @@ package code.day05_RadioButtonAndTestNG;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
-public class  c4_TestNGExamples {
+public class c4_TestNGExamples {
     @BeforeClass
     public void setupClass(){ System.out.println("Before class is running"); }
     @AfterClass
