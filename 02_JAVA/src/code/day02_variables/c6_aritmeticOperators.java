@@ -22,7 +22,7 @@ public class c6_aritmeticOperators {
         System.out.println("2+5");//this one is text result will be 2+5
 
         int i1=6;
-        int i2=3;
+        int i2=3 ;
 
         //sum of 2 numbers
         System.out.println(i1 + i2);//number + number = number 8
