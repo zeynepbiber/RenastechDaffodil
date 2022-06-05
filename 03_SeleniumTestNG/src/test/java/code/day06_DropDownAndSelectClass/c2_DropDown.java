@@ -19,23 +19,27 @@ public class c2_DropDown {
 
 
     WebDriver driver;
+
     @BeforeClass
-    public void beforeClass(){
+    public void beforeClass() {
         System.out.println("Test is starting");
     }
+
     @AfterClass
-    public void afterClass(){
+    public void afterClass() {
         System.out.println("the test has completed");
     }
+
     @BeforeMethod
-    public void setUp(){
+    public void setUp() {
         //1. Open Chrome browser
         //2. Go to "http://the-internet.herokuapp.com/"
-        driver= WebDriverUtil.getDriver("chrome");
+        driver = WebDriverUtil.getDriver("chrome");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("http://the-internet.herokuapp.com/");
     }
+
     @Test
     public void TC1_verifyDropdown() {
         //3 click on dropdown
@@ -43,14 +47,12 @@ public class c2_DropDown {
         driver.findElement(By.xpath("//a[@href='/dropdown']")).click();
 
         //confirm default selected dropdown is "Please select an option"
-        WebElement DropDownBox=driver.findElement(By.id("dropdown"));
+        WebElement DropDownBox = driver.findElement(By.id("dropdown"));
         //we use Select Method
-        Select dropdown=new Select(DropDownBox);
-        String defaultOption=dropdown.getFirstSelectedOption().getText();
-        String expectedDefaultOption="Please select an option";
-        Assert.assertEquals(defaultOption,expectedDefaultOption,"the default option verification is failed");
-
-
+        Select dropdown = new Select(DropDownBox);
+        String defaultOption = dropdown.getFirstSelectedOption().getText();
+        String expectedDefaultOption = "Please select an option";
+        Assert.assertEquals(defaultOption, expectedDefaultOption, "the default option verification is failed");
 
 
     }
@@ -71,9 +73,9 @@ public class c2_DropDown {
         driver.findElement(By.xpath("//a[@href='/dropdown']")).click();
         //select dropdowns are created by using <Select> tag in HTML
         //and if it is select dropdown you can handle by using Select class
-        WebElement DropDownBox=driver.findElement(By.id("dropdown"));
+        WebElement DropDownBox = driver.findElement(By.id("dropdown"));
         //we use Select Method
-        Select dropdown=new Select(DropDownBox);
+        Select dropdown = new Select(DropDownBox);
         Thread.sleep(3000);
         //choose  option 2 from dropdown
         dropdown.selectByVisibleText("Option 2");
@@ -86,9 +88,9 @@ public class c2_DropDown {
 
 
     }
+
     @AfterMethod
-    public void closing(){
+    public void closing() {
         driver.close();
     }
-
 }
