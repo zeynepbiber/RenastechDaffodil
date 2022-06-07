@@ -1,10 +1,6 @@
 package students.TaylanTonka;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-<<<<<<< HEAD
-=======
-
->>>>>>> 4d21e649c3e3c1d69d270d922cf1fe1f9aafebfa
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
