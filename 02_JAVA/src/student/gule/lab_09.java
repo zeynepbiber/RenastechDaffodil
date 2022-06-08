@@ -1,4 +1,4 @@
-package student.engin.gule;
+package student.gule;
 //Write a return method that can sort an int array in descending order without using
 // the sort method of the Arrays class
 //Ex: int[] arr = {10,20,7, 8, 90};

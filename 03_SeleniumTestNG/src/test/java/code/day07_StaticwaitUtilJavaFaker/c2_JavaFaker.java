@@ -11,7 +11,7 @@ public class c2_JavaFaker {
         Faker faker=new Faker();
         System.out.println("name: "+ faker.name().fullName());
         System.out.println("first name: "+faker.name().firstName());
-       System.out.println(faker.address().cityName());
+        System.out.println(faker.address().cityName());
         System.out.println(faker.gameOfThrones().dragon());
         System.out.println(faker.lordOfTheRings().location());
         System.out.println(faker.artist().name());

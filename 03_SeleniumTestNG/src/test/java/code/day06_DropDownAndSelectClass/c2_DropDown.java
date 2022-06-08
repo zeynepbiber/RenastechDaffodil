@@ -88,7 +88,7 @@ public class c2_DropDown {
     }
     @AfterMethod
     public void closing(){
-        driver.close();
+        //driver.close();
     }
 
 }

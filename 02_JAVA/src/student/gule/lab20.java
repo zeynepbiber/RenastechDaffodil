@@ -1,4 +1,4 @@
-package student.engin.gule;
+package student.gule;
 // Swap two variable' values without using a third variable
 public class lab20 {
     public static void main(String[] args) {

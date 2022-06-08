@@ -1,4 +1,4 @@
-package student.engin.gule;
+package student.gule;
  //Write a method that can divide two numbers without using division operator
 public class lab21 {
      public static void main(String[] args)     {

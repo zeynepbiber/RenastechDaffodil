@@ -34,10 +34,10 @@ public class c1_WebTable {
     @AfterMethod
     public void closing(){
         BrowserUtils.wait(2);
-        //driver.close();
+        driver.close();
     }
     @Test
-    public void TC1_VerifyMarkStreetName() throws InterruptedException {
+    public void TC1_VerifyMarkStreetName(){
         //       3. Verify Mark Smith has street as  “9, Maple Valley”
        //parent to child method
        // WebElement markStreet=driver.findElement(By.xpath("//table[@id='ctl00_MainContent_orderGrid']/tbody/tr[3]/td[6]"));
@@ -48,6 +48,7 @@ public class c1_WebTable {
         String actualStreet=markStreet.getText();
         String expectedStreet="9, Maple Valley";
         Assert.assertEquals(actualStreet,expectedStreet,"street name verification has failed!");
+
 
 
     }
