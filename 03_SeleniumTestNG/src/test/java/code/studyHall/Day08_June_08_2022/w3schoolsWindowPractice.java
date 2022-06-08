@@ -61,6 +61,10 @@ public class w3schoolsWindowPractice {
 
         System.out.println(currentWindowAtThisPoint);
 
+        WebElement runButton=driver.findElement(By.xpath("//button[@id='runbtn']"));
+
+        String expectedTextForRunButton="Run ❯";
+        Assert.assertTrue(runButton.getText().contains(expectedTextForRunButton));
 
 
 
