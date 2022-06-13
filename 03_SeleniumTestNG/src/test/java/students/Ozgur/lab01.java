@@ -1,4 +1,4 @@
-package students.Sezar.Ozgur;
+package students.Ozgur;
 //##Task 1
 //
 //        Go to https://www.etsy.com/
