@@ -2,10 +2,9 @@ package code.students.HaticeKarakoyun;
 
 import code.utilities.BrowserUtils;
 import code.utilities.WebDriverUtil;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
@@ -24,42 +23,42 @@ public class lab10 {
     //Verify that you login to page
 
     WebDriver driver;
-
     @BeforeMethod
-    public void setUp() {
-        driver = WebDriverUtil.getDriver("chrome");
-        driver.get("http://demo.guru99.com/V4/");
-        driver.manage().window().maximize();
+    public void SetUp(){
+        WebDriverManager.chromedriver().setup();
+        driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
+        driver.get(" http://demo.guru99.com/V4/");
+        driver.manage().window().maximize();
     }
+    @Test
+    public void TC1(){
 
-    @Test(dataProvider = "testData")
-    public void TC1_Guru99LoginVerification(String userID, String password) {
-        LoginForGuru99(driver, userID, password);
+        WebElement hereButton = driver.findElement(By.linkText("here"));
+        hereButton.click();
 
-        BrowserUtils.wait(2);
-        String expectedURL = "https://demo.guru99.com/V4/manager/Managerhomepage.php";
-        String actualURL = driver.getCurrentUrl();
-        Assert.assertEquals(expectedURL, actualURL);
-    }
+        WebElement userName = driver.findElement(By.name("emailid"));
+        userName.sendKeys("batch5@gmail.com", Keys.ENTER);
+        String userID = driver.findElement(By.xpath("/html/body/table/tbody/tr[4]/td[2]")).getText();
+        String passWord = driver.findElement(By.xpath("/html/body/table/tbody/tr[5]/td[2]")).getText();
+        for (int i = 0; i < 2; i++){
+            driver.navigate().back();
+        }
+        JavascriptExecutor Gul=(JavascriptExecutor) driver;
+        Gul.executeScript("window.scrollBy(0,1000)");
 
-    @DataProvider(name = "testData")
-    public static Object[][] credentialsForLogin() {
-        return new Object[][]{
-                {"hord124357", "xecedil"}
-        };
-    }
 
-    public static void LoginForGuru99(WebDriver driver, String userID, String password) {
+        WebElement userIdBox = driver.findElement(By.xpath("//input[@name='uid']"));
+        userIdBox.sendKeys(userID);
+        WebElement passwordBox = driver.findElement(By.xpath("//input[@name='password']"));
+        passwordBox.sendKeys(passWord);
+        WebElement button = driver.findElement(By.name("btnLogin"));
+        button.click();
+        String verify=driver.findElement(By.xpath("//marquee[@behavior='alternate']")).getText();
+        String expected="Welcome To Manager's Page of Guru99 Bank";
 
-        WebElement userId = driver.findElement(By.xpath("/html/body/form/table/tbody/tr[1]/td[2]/input"));
-        userId.sendKeys(userID);
+        Assert.assertTrue(verify.equals(expected),"failed");
 
-        WebElement password1 = driver.findElement(By.xpath("/html/body/form/table/tbody/tr[2]/td[2]/input"));
-        password1.sendKeys(password);
-        WebElement loginButton = driver.findElement(By.xpath("//input[@name='btnLogin']"));
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("arguments[0].click();", loginButton);
+
     }
 }
