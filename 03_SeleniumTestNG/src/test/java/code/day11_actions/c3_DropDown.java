@@ -1,4 +1,4 @@
-package code.day08_Alert_Webtable_Iframe.day11_actions;
+package code.day11_actions;
 
 import code.base.TestBase2;
 import code.utilities.BrowserUtils;
