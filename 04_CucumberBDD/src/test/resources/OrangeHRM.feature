@@ -92,7 +92,6 @@ Feature: Functional testing on Orange HRM
           Then The user wants to go to Nationalities section
           Then The user wants to click on add new nationality
           Then The user wants to add new nationalties as "<Nationalities>"
-          Then The user wants to verify that Nationality is added
           #In the last step it will apply a different nationality in the each run
 
           Examples:

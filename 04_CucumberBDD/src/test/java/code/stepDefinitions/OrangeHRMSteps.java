@@ -118,9 +118,5 @@ public class OrangeHRMSteps extends BrowserUtils {
         orangeHRMAdmin.setNationalityName(string);
         orangeHRMAdmin.setNationalitiesList(string);
     }
-    @Then("The user wants to verify that Nationality is added")
-    public void the_user_wants_to_verify_that_nationality_is_added() {
-
-    }
 
 }
