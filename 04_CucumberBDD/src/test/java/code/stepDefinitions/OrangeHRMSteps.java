@@ -1,5 +1,6 @@
 package code.stepDefinitions;
 
+import code.pages.OrangeHRMAdmin;
 import code.pages.OrangeHRMHome;
 import code.pages.OrangeHRMLogin;
 import code.utils.BrowserUtils;
@@ -15,6 +16,7 @@ import java.util.Map;
 public class OrangeHRMSteps extends BrowserUtils {
     OrangeHRMLogin orangeHRMLogin=new OrangeHRMLogin();
     OrangeHRMHome orangeHRMHome = new OrangeHRMHome();
+    OrangeHRMAdmin orangeHRMAdmin=new OrangeHRMAdmin();
     @Given("The user wants to go to Orange HRM Website")
     public void the_user_wants_to_go_to_orange_hrm_website() {
         System.out.println("Browser is launched and testing started");
@@ -101,18 +103,24 @@ public class OrangeHRMSteps extends BrowserUtils {
 
     @Then("The user wants to go to Admin Page")
     public void the_user_wants_to_go_to_admin_page() {
-
+        orangeHRMAdmin.setAdminButton();
     }
     @Then("The user wants to go to Nationalities section")
     public void the_user_wants_to_go_to_nationalities_section() {
-
+        orangeHRMAdmin.setNationalitiesMenu();
     }
     @Then("The user wants to click on add new nationality")
     public void the_user_wants_to_click_on_add_new_nationality() {
-
+        orangeHRMAdmin.setAddButton();
     }
     @Then("The user wants to add new nationalties as {string}")
     public void the_user_wants_to_add_new_nationalties_as(String string) {
+        orangeHRMAdmin.setNationalityName(string);
+        orangeHRMAdmin.setNationalitiesList(string);
+    }
+    @Then("The user wants to verify that Nationality is added")
+    public void the_user_wants_to_verify_that_nationality_is_added() {
 
     }
+
 }
