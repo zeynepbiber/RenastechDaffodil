@@ -18,6 +18,7 @@ production
 03_SeleniumTestNG/target
 04_CucumberBDD/target
 *target
+.target
 
 
 
