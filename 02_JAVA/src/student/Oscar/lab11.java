@@ -13,8 +13,6 @@ public class lab11 {
                 System.out.println(i+" Divisible by 3");
             } else if (i%5==0 && i%15!=0){
                 System.out.println(i+" Divisible by 5");
-            } else {
-                continue;
             }
         }
 
