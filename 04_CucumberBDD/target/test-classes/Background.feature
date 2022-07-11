@@ -3,7 +3,7 @@ Feature: We are testing background keyword in this file
   #We are pre-defining the steps below for each scenario in
   #this feature file which means it will run these steps for all scenarios
   #at the beginning
-
+git
   # !! Background keyword is a possible interview question
   #You always need to place in the beginning
   Background: The user wants to go to Orange HRM Website
