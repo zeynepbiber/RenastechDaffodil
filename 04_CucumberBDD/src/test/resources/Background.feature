@@ -43,7 +43,7 @@ Feature: We are testing background keyword in this file
     Then The user wants to add new nationalties as "<Nationalities>"
           #In the last step it will apply a different nationality in the each run
 
-    Examples:
+ Examples:
       |Nationalities |
       |Spartan       |
       |Nigerian      |
