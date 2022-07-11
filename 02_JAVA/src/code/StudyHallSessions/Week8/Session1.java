@@ -68,7 +68,7 @@ public class Session1 {
 
         //7-  Multi-Dimensional : Array can be multi dimensional , but Arraylist doesn't have multi-dimension
 
-        String [][] teams={{"mike","Gule","Esra"},{"Gulsen","sezar","Ozgur"},{"Ugur","Lopez","Firat"}};
+        String [][] teams={{"mike","Gule","Esra"},{"Gulsen","students.sezar","Ozgur"},{"Ugur","Lopez","Firat"}};
 
         System.out.println(teams.length); // 3
 
