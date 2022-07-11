@@ -26,7 +26,7 @@ public class Session1 {
 
         int [] ages=new int[2]; // size of ages is 2;
 
-        // ages[3]=34;  // ArrayIndexOutOfBoundsException: because ages size is 2;
+       // ages[3]=34;  // ArrayIndexOutOfBoundsException: because ages size is 2;
 
         ArrayList<Integer> agesList=new ArrayList<>(); // size can be changes. Dynamic.
         agesList.add(45);
