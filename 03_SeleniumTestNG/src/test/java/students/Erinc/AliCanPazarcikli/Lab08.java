@@ -1,4 +1,4 @@
-package students.AliCanPazarcikli;
+package students.Erinc.AliCanPazarcikli;
 
 import code.utilities.BrowserUtils;
 import code.utilities.WebDriverUtil;
