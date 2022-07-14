@@ -1,4 +1,4 @@
-package students.Erinc.AliCanPazarcikli;
+package students.AliCanPazarcikli;
 
 import code.utilities.WebDriverUtil;
 import io.github.bonigarcia.wdm.WebDriverManager;

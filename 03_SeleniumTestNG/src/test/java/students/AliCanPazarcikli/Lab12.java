@@ -1,4 +1,4 @@
-package students.Erinc.AliCanPazarcikli;
+package students.AliCanPazarcikli;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.Alert;
