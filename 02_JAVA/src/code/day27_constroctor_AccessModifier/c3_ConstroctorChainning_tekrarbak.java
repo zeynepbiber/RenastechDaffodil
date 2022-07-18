@@ -1,6 +1,6 @@
 package code.day27_constroctor_AccessModifier;
 
-public class c3_ConstroctorChainning {
+public class c3_ConstroctorChainning_tekrarbak {
 
 
     /*
@@ -18,11 +18,13 @@ and make their chain which makes the program more readable.
 
     //to be able to create a constroctor
     // access modifier + class name
-    public c3_ConstroctorChainning(){
+    public c3_ConstroctorChainning_tekrarbak(){
         System.out.println("Default Const"); //1
-    }
+    }// neden yazmadi?
 
-    public c3_ConstroctorChainning(int a){
+    c3_ConstroctorChainning_tekrarbak obj1=new c3_ConstroctorChainning_tekrarbak();
+
+    public c3_ConstroctorChainning_tekrarbak(int a){
          //1
         System.out.println("Int const"); //2
     }
@@ -36,7 +38,7 @@ and make their chain which makes the program more readable.
     }
    // Within same class: It can be done using this() keyword for constructors in same class
 
-    public  c3_ConstroctorChainning(String str){
+    public c3_ConstroctorChainning_tekrarbak(String str){
         //System.out.println(); error you cant have anything before this keyword
         //this(); calls default const
         //this("hello"); you cant call same constructor in the same const
@@ -48,7 +50,7 @@ and make their chain which makes the program more readable.
     }
 
     public static void main(String[] args) {
-        c3_ConstroctorChainning obj = new c3_ConstroctorChainning("hello");
+        c3_ConstroctorChainning_tekrarbak obj = new c3_ConstroctorChainning_tekrarbak("hello");
 
 
     }

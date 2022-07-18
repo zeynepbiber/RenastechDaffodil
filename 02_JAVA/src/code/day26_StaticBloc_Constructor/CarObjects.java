@@ -6,7 +6,7 @@ public class CarObjects {
 
        // Car object1=new Car();
 
-        Car abesCar= new Car("Suziki",1999,10000.0,"White");
+        Car_nedenthis abesCar= new Car_nedenthis("Suziki",1999,10000.0,"White");
         // Constrcutor will help us to create an object of the class and updated attributes.
 
         System.out.println(abesCar.color); // White
@@ -18,7 +18,7 @@ public class CarObjects {
         // 1999 , Suziki , White , 10000.0
 
         System.out.println("++++++++++++++++++++++++++++++++++++");
-        Car libbysCar=new Car("Ford",2016,150000,"White");
+        Car_nedenthis libbysCar=new Car_nedenthis("Ford",2016,150000,"White");
 
         System.out.println(libbysCar.year); //2016
         System.out.println(libbysCar.price); // 150000.0
@@ -40,7 +40,7 @@ public class CarObjects {
 
         System.out.println("*********************");
 
-        Car berkanCar=new Car("Honda",2019);
+        Car_nedenthis berkanCar=new Car_nedenthis("Honda",2019);
         // here we created an object with 2 parameters.
 
         System.out.println(berkanCar.brand);//Honda
@@ -52,7 +52,7 @@ public class CarObjects {
 
         System.out.println("******************");
 
-        Car car4=new Car("Audi",1990,90.0,"Black");
+        Car_nedenthis car4=new Car_nedenthis("Audi",1990,90.0,"Black");
 
         System.out.println(car4.color);
 

@@ -9,15 +9,16 @@ public class c6_StaticBlock {
 
     public static void main(String[] args) {//static method
 
-        System.out.println("This is main method ");
+        System.out.println("This is main method ");//2
+        System.out.println("this is something I added after must be 3 but delete so numbers make sense!");
 
-        methodStat();
+        methodStat();//3
 //        methodInstance()
         c6_StaticBlock obj1=new c6_StaticBlock();
-        obj1.methodInstance();
+        obj1.methodInstance();//5
 
         c6_StaticBlock obj2=new c6_StaticBlock();
-        obj2.methodInstance();
+        obj2.methodInstance();//7
     }
 
     public static void methodStat(){
@@ -32,11 +33,11 @@ public class c6_StaticBlock {
     //blocks
     {
         //instance block
-        System.out.println("This is instance block");
+        System.out.println("This is instance block");//4//6
     }
 
     static {
-        System.out.println("Static Block");
+        System.out.println("Static Block");//1
     }
 
     //instance block : will be executed for any new object

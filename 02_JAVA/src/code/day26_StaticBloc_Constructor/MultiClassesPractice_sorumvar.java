@@ -2,11 +2,11 @@ package code.day26_StaticBloc_Constructor;
 
 import code.MyUtils.GenericUtils;
 
-public class MultiClassesPractice {
+public class MultiClassesPractice_sorumvar {
     public static void main(String[] args) {
         lab01.Reverse();
         lab02.lab02Answer();
-        lab04.returnMethod();
+        lab04.returnMethod();// neden ignore ettik bunu?
         GenericUtils.reverseString("Ali");
         GenericUtils.Stars();
 
@@ -34,7 +34,7 @@ class lab02{
     }
 }
 
-class lab04{
+class lab04 {
 
     public static void main(String[] args) {
 

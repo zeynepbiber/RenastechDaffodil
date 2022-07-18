@@ -11,6 +11,7 @@ public class BMWObjects {
         car1.setCarInfo(2010 , 25300.55);
         System.out.println( car1.modelYear);
         car1.getPrice();
+        System.out.println(car1.getPrice());
         //getprice is instance method we need call with object from bmw class
 
 

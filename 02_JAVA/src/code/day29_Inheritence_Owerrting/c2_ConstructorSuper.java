@@ -1,11 +1,12 @@
 package code.day29_Inheritence_Owerrting;
 
-public class c2_ConstructorSuper extends test2 {
+public class c2_ConstructorSuper extends test2_nedensuper {
 
     //parent class constructors will be inherited
 
     public c2_ConstructorSuper(){
         super(35);
+
 
         System.out.println("c2 cons default");
     }
@@ -23,17 +24,17 @@ public class c2_ConstructorSuper extends test2 {
 
 }
 
-class test2{
+class test2_nedensuper {
 
-    public test2(String str){
+    public test2_nedensuper(String str){
         System.out.println("Test 2 string");
     }
 
-    public test2(int num){
+    public test2_nedensuper(int num){
         System.out.println(" test 2 int");
     }
 
-    public test2(){
+    public test2_nedensuper(){
         System.out.println("test 2 default");
     }
 }
