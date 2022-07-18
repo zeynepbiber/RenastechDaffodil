@@ -9,7 +9,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import javax.xml.ws.WebEndpoint;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
@@ -56,7 +56,6 @@ public class w3schoolsWindowPractice {
         WebElement logoOnSecondWindow=driver.findElement(By.xpath("//a[@title='Home']"));
 
         Assert.assertTrue(logoOnSecondWindow.isDisplayed());
-
         driver.switchTo().window(windowsList.get(0));
 
         System.out.println(currentWindowAtThisPoint);
