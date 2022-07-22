@@ -1,3 +1,5 @@
+package code;
+
 import java.sql.*;
 
 public class ConnectionDB {
@@ -31,7 +33,7 @@ public class ConnectionDB {
 
         ResultSet resultSet = statement.executeQuery("SELECT * FROM countries");
 
-        //resultSet.next();
+        resultSet.next();
 
         System.out.println("First Column Value:" + resultSet.getString("country_id"));
         System.out.println("Second Column Value:" + resultSet.getString("country_name"));

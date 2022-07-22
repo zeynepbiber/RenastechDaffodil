@@ -1,23 +1,23 @@
-import org.testng.Assert;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
+package code;
+
+import org.junit.jupiter.api.*;
+
 import java.sql.*;
 import Utils.DatabaseUtil;
 
 public class DBDepartmentsTable {
 
-    @BeforeTest
+    @BeforeEach
     public void setup(){
         DatabaseUtil.createConnection();
     }
 
-    @AfterTest
+    @AfterEach
     public void teardown(){
         DatabaseUtil.closeConnection();
     }
 
-    @Test(description = "Given connected database and departments table when we check the column number then it must be equal to given data")
+    @Test( )//"Given connected database and departments table when we check the column number then it must be equal to given data"
     public void columnNumber(){
 
         // Given
@@ -36,10 +36,10 @@ public class DBDepartmentsTable {
         }
 
         // Then
-        Assert.assertEquals(actualNumberOfColumnsInDepartmentsTable,expectedNumberOfColumnsInDepartmentsTable,"Departments table column count is Incorrect");
+        Assertions.assertEquals(actualNumberOfColumnsInDepartmentsTable,expectedNumberOfColumnsInDepartmentsTable,"Departments table column count is Incorrect");
     }
 
-    @Test(description = "Given connected database and departments table when we check the first column name then it must be equal to given data")
+    @Test( )// "Given connected database and departments table when we check the first column name then it must be equal to given data"
     public void columnName(){
 
         // Given
@@ -58,6 +58,6 @@ public class DBDepartmentsTable {
         }
 
         // Then
-        Assert.assertEquals(actualFirstColumnNameInDepartmentsTable, expectedFirstColumnNameInDepartmentTable, "First Column Name in the Departments Table is Incorrect");
+        Assertions.assertEquals(actualFirstColumnNameInDepartmentsTable, expectedFirstColumnNameInDepartmentTable, "First Column Name in the Departments Table is Incorrect");
     }
 }
